@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../ejercicio003_variables"
+		},
+		{
+			"path": "../ejercicio004_interaccion"
+		},
+		{
+			"path": "../ejercicio005_prompt_getElementById"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ejercicio006_calculadoraIMC"
+	}
+}

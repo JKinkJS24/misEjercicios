@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacciones</title>
+</head>
+<body>
+    <script>
+        alert("Hola")
+        console.time();
+        let nombre = prompt("Cómo te llamas?");
+        let respuesta = confirm("Quieres dormir la siesta, " + nombre + "?");
+        console.warn(nombre, 10, true);
+        console.error(nombre, 10, true)
+        console.timeEnd()
+        document.write("Pues vale, ", nombre);
+        console.log(respuesta);
+    </script>
+</body>
+</html>
