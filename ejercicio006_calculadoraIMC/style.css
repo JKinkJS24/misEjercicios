@@ -1,0 +1,18 @@
+#principal {
+    width: 200px;
+    border: rgb(96, 102, 106) 4px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(129, 138, 149);
+    margin: auto;
+}
+
+.contenido {
+    margin: 5px;
+    text-align: center;
+
+}
+
+input {
+    padding: 5px;
+}
