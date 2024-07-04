@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación de Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #principal {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .contenido {
+            margin-bottom: 15px;
+        }
+        .contenido input {
+            width: calc(100% - 22px); /* Adjust for padding and border */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .contenido button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        .contenido button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="principal">
+        <h2>Verificación de Email</h2>
+        <div class="contenido">
+            <input type="email" id="iEmail" placeholder="Email">
+        </div>
+        <div class="contenido">
+            <input type="password" id="iPassword" placeholder="Password">
+        </div>
+        <div class="contenido">
+            <button onclick="comprobar()">Comprobar</button>
+        </div>
+    </div>
+    <script>
+        function comprobar() {
+            let email = document.getElementById("iEmail").value;
+            let password = document.getElementById("iPassword").value;
+            console.log("Email:", email);
+            console.log("Password:", password);
+        }
+    </script>
+</body>
+</html>
+
