@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="principal">
+        <div>CALCULADORA IMC</div>
         <div class="contenido">
             <input type="text" name="" id="iNombre" placeholder="Nombre">
         </div>
@@ -21,18 +22,18 @@
         <div class="contenido">
             <button onclick="calcular()">Calcular IMC</button>
         </div>
-        <div class="contenido">
-            Resultado
+        <div class="contenido" id="resultado">
+            RESULTADO
         </div>
     </div>
 </body>
 </html>
 <script>
     function calcular()
-    
+    {
         let altura = document.getElementById("iAltura").value;
         let peso = document.getElementById("iPeso").value;
         let imc = calcularIMC(peso,altura);
         document.getElementById("resultado").innerHTML=imc;
-    
+    }
 </script>
