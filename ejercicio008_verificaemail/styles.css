@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background: linear-gradient(to bottom, #4e48c6, #713665);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,4 +51,8 @@ button:hover {
 
 button:active {
     background-color: #ff0073;
+}
+
+.error {
+    color: #ff0073;
 }

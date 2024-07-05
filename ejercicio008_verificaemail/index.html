@@ -10,7 +10,9 @@
     <div class="container">
         <h2>Introduce tu email</h2>
         <input type="text" id="email" placeholder="Email">
+        <span class="error" id="error_email"></span>
         <input type="password" id="password" placeholder="Contraseña">
+        <span class="error" id="error_password"></span>
         <button onclick="validar()">Validar</button>
         
     </div>   
@@ -21,38 +23,45 @@
     {
         let email = document.getElementById("email").value;
         let pwd = document.querySelector("#password").value;
+
         console.log(email, pwd);
+
         if (email.indexOf("@")<0)
         {
-            console.error("El email debe contener arroba.");
+            escribirError("Falta el símbolo @", "#error_email")
         }
-        if (email.indexOf(".")<0)
+        else if (email.indexOf(".")<0)
         {
-            console.error("El email debe contener punto '.'.");
+            escribirError("Falta el símbolo .", "#error_email")
         }
-        if (email.length<5)
+        else if (email.length<5)
         {
-            console.error("El email debe tener una longitud mayor de 5 caracteres.");
+            escribirError("La dirección tiene menos de 5 caractéres.", "#error_email")
         }
-        if (pwd.match("A"))
+        else
         {
-            console.error("El password no puede contener 'A' ni 'a'.");
+            escribirError("", "#error_email")
         }
-        if (pwd.match("a"))
+
+        if (pwd.toUpperCase().includes("A"))
         {
-            console.error("El password no puede contener 'A' ni 'a'.");
+            escribirError("El password no puede contener 'A' ni 'a'.", "#error_password")
         }
-        if (pwd.length<6)
+        else if (pwd.length<6)
         {
-            console.error("El password debe tener más de 6 caracteres.");
+            escribirError("El password debe tener más de 6 caracteres.", "#error_password")
         }
-        if (pwd.match("IBM"))
+        else if (pwd.toUpperCase().includes("IBM"))
         {
-            console.error("El password no puede contener 'IBM' ni 'ibm'.");
+            escribirError("El password no puede contener 'IBM' ni 'ibm'.", "#error_password")
         }
-        if (pwd.match("ibm"))
+        else
         {
-            console.error("El password no puede contener 'IBM' ni 'ibm'.");
+            escribirError("", "#error_password")
         }
+    }
+    function escribirError(mensaje, identificador)
+    {
+        document.querySelector(identificador).innerHTML=mensaje;
     }
 </script>
