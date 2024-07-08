@@ -32,17 +32,30 @@
 </body>
 </html>
 <script>
-    function calcular()
+    const long_min_nombre = 3;
+    const edad_minima = 18;
+    const altura_minima = 100;
+    const alura_maxima = 250;
+    const peso_minimo = 40;
+    const peso_maximo = 200; 
+    function comenzarCalculoIMC() {
+        let hayError = validar();
+        if (!hayError){
+            let peso = document.querySelector("Peso")
+        }
+    }
+
+    function validar()
     { 
         let numeroErrores = 0;  
         let nombre = document.getElementById("iNombre").value;
-        if (nombre.length<3)
+        if (nombre.trim().length<long_min_nombre)
         {
             escribirError("Nombre no válido", "#resultado");
             numeroErrores++;
         }
         let edad = document.getElementById("iEdad").value;
-        if (edad < 18)
+        if (edad < edad_minima)
         {
             escribirError("Debes de ser mayor de 18 para usar la calculadora", "#resultado")
             numeroErrores++;
