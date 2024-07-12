@@ -1,0 +1,8 @@
+.tarea
+{   
+    float: left;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(86, 89, 150);
+}
