@@ -1,0 +1,11 @@
+#gato1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -50px;
+    left: 200px;
+}
+
+#gato1 img {
+    width: 100%;
+}
