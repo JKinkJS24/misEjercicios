@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#formulario input,
+#formulario button {
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#formulario button:hover {
+    background-color: #0056b3;
+}
+
+#contenedor-peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pelicula {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+
+.pelicula:hover {
+    transform: scale(1.05);
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#paginacion {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#paginacion a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+#paginacion a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
