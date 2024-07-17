@@ -1,3 +1,4 @@
+// Creación de objeto suelto
 let enemigo1 = {
     sprite : "imagen.jpg",
     x : 0,
@@ -7,6 +8,7 @@ let enemigo1 = {
 
 console.log(typeof enemigo1); //object
 
+// Creación de una clase con function
 function Enemigo(sprite, x, y, estado){
     this.sprite = sprite;
     this.x = x;
@@ -16,6 +18,8 @@ function Enemigo(sprite, x, y, estado){
 
 let enemigo2 = new Enemigo("imagen.jpg", 1, 0, estado)
 
+
+// Creación de una clase... con class, como debe hacerse, vaya...
 class Superenemigo {
     constructor(sprite, x, y, estado){
         this.sprite = sprite;
