@@ -13,3 +13,8 @@ setInterval(() => {
         x = window.innerWidth;
     }
 }, RATIO);
+
+document.querySelector("#botonCerrar").addEventListener("click", () => {
+    document.querySelector("footer").style.bottom = "-100px";
+    document.querySelector("footer").style.opacity = 0;
+});
