@@ -9,3 +9,16 @@
 #gato1 img {
     width: 100%;
 }
+
+body {
+    /* Degradado lineal de arriba a abajo */
+    background: linear-gradient(to bottom, #fe5492, #f2700d);
+    /* Degradado radial (desde el centro hacia afuera) */
+    /* background: radial-gradient(circle, #ff7e5f, #feb47b); */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
