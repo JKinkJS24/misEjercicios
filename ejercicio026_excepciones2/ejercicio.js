@@ -1,20 +1,20 @@
-let paises = Array("Islandia", "Finlandia", "Suecia", "Noruega", "Groenlandia")
+let paises = Array("Islandia", "Finlandia", "Suecia", "Noruega", "Groenlandia");
 
 function organizarViaje(pais, pax, dias) {
-
+    
     if (paises.includes(pais)) {
         console.log("País Ok");
     } else {
         throw new Error("Ese país no está disponible.");
     }
 
-    if (pax >= 1 && pax <= 4) {
+    if (pax >= 1 || pax <= 4) {
         console.log("Personas Ok");
     } else {
         throw new Error("Número de personas no disponible.");
     }
 
-    if (dias >= 5 && dias <= 10) {
+    if (dias >= 5 || dias <= 10) {
         console.log("Días Ok");
     } else {
         throw new Error("Número de días no disponible");
