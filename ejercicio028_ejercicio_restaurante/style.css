@@ -1,0 +1,13 @@
+#restaurantes {
+    width: 100%;
+}
+
+.restaurante {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(123, 132, 132);
+    border-radius: 10px;
+    border-style: solid;
+
+
+}
