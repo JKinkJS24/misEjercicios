@@ -1,8 +1,8 @@
-#restaurantes {
+#cat {
     width: 100%;
 }
 
-.restaurante {
+.breed {
     width: 98%;
     height: 100px;
     border-radius: 10px;
@@ -13,7 +13,7 @@
     transition: all 0.25s;
 }
 
-.restaurante:hover {
+.breed:hover {
     border-color: rgba(128, 128, 128, 0.136);
     box-shadow: 2px 2px rgb(200, 200, 200);
 }

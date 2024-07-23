@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <input type="text" id="iFiltro" placeholder="Filtrar">
+    </div>
+    <div id="gato">
+
+    </div>
+</body>
+
+</html>
+<script src="scripts/http-client.js"></script>
+<script src="scripts/generadorfilas.js"></script>
+<script>
+    var arrayGatos;
+
+    document.querySelector("#iFiltro").addEventListener("keyup", () => {
+        console.log("p1");
+        let texto = document.querySelector("#iFiltro").value;
+        let gatosFiltrados = arrayGatos.filter((gato) => {
+            return gato.nombre.includes(texto);
+        });
+        document.querySelector("#gatos").innerHTML = "";
+        restaurantesFiltrados.forEach(gato => {
+            crearFila(gato.reference_image,
+                gato.breed,
+                gato.description,
+                gato.temperament);
+        });
+
+    })
+
+    doGetHTTPRequest(
+        "http://127.0.0.1", "5501", "/cats.json",
+        mostrarGatos, procesarError);
+
+
+
+    function mostrarGatos(texto) {
+        console.log(texto)
+        let objetoServidor = JSON.parse(texto);
+        arrayGatos = objetoServidor.breeds;
+        arrayGatos.forEach(cat => {
+            crearFila(cat.url,
+                cat.name,
+                cat.description,
+                cat.temperament);
+        });
+    }
+    function procesarError(err) {
+        console.error(err);
+    }
+</script>
