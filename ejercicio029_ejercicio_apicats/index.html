@@ -9,9 +9,12 @@
 </head>
 
 <body>
-    <div>
-        <input type="text" id="iFiltro" placeholder="Filtrar">
-    </div>
+    <header>
+        <h1>Catify</h1>
+    </header>
+    <!--<div>
+        <input type="text" id="iFiltro" placeholder="Filtrar"> 
+    </div>-->
     <div id="cat">
 
     </div>
@@ -21,7 +24,7 @@
 <script src="scripts/http-client.js"></script>
 <script src="scripts/generadorfilas.js"></script>
 <script>
-    var arrayCats;
+    /*var arrayCats;
 
     document.querySelector("#iFiltro").addEventListener("keyup", () => {
         console.log("p1");
@@ -37,10 +40,10 @@
                 cat.temperament);
         });
 
-    })
+    })*/
 
     doGetHTTPRequest(
-        "http://127.0.0.1", "5501", "/cats.json",
+        "https://jkinkjs24.github.io/ejercicio029_ejercicio_apicats/", "80", "/cats.json",
         showCats, procesarError);
 
 

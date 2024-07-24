@@ -4,100 +4,56 @@
             "name": "Abyssinian",
             "summary": "The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.",
             "temperament": "Active, Energetic, Independent, Intelligent, Gentle",
-            "reference_image": {
-                "id": "itfFA4NWS",
-                "url": "https://cdn2.thecatapi.com/images/itfFA4NWS.jpg",
-                "width": 1280,
-                "height": 914
-            }
+            "url": "https://cdn2.thecatapi.com/images/itfFA4NWS.jpg"
+            
         },
         {
             "name": "American Shorthair",
             "summary": "The American Shorthair is known for its longevity, robust health, good looks, sweet personality, and amiability with children, dogs, and other pets.",
             "temperament": "Active, Curious, Easy Going, Playful, Calm",
-            "reference_image": {
-                "id": "SCHe-SekW",
-                "url": "https://cdn2.thecatapi.com/images/SCHe-SekW.jpg",
-                "width": 1024,
-                "height": 768
-            }
+            "url": "https://cdn2.thecatapi.com/images/SCHe-SekW.jpg"
         },
         {
             "name": "Australian Mist",
             "summary": "The Australian Mist thrives on human companionship. Tolerant of even the youngest of children, these friendly felines enjoy playing games and being part of the hustle and bustle of a busy household. They make entertaining companions for people of all ages, and are happy to remain indoors between dusk and dawn or to be wholly indoor pets.",
             "temperament": "Lively, Social, Fun-loving, Relaxed, Affectionate",
-            "reference_image": {
-                "id": "7-1CtKMRr",
-                "url": "https://cdn2.thecatapi.com/images/7-1CtKMRr.jpg",
-                "width": 1800,
-                "height": 1200
-            }
+            "url": "https://cdn2.thecatapi.com/images/7-1CtKMRr.jpg"
         },
         {
             "name": "Himalayan",
             "summary": "Calm and devoted, Himalayans make excellent companions, though they prefer a quieter home. They are playful in a sedate kind of way and enjoy having an assortment of toys. The Himalayan will stretch out next to you, sleep in your bed and even sit on your lap when she is in the mood.",
             "temperament": "Dependent, Gentle, Intelligent, Quiet, Social",
-            "reference_image": {
-                "id": "ajWdNxBwN",
-                "url": "https://cdn2.thecatapi.com/images/ajWdNxBwN.jpg",
-                "width": 912,
-                "height": 920
-            }
+            "url": "https://cdn2.thecatapi.com/images/ajWdNxBwN.jpg"
         },
         {
             "name": "Colorpoint Shorthair",
             "summary": "Colorpoint Shorthairs are an affectionate breed, devoted and loyal to their people. Sensitive to their owner’s moods, Colorpoints are more than happy to sit at your side or on your lap and purr words of encouragement on a bad day. They will constantly seek out your lap whenever it is open and in the moments when your lap is preoccupied they will stretch out in sunny spots on the ground.",
             "temperament": "Affectionate, Intelligent, Playful, Social",
-            "reference_image": {
-                "id": "1nOZPY4uI",
-                "url": "https://cdn2.thecatapi.com/images/1nOZPY4uI.jpg",
-                "width": 640,
-                "height": 480
-            }
+            "url": "https://cdn2.thecatapi.com/images/1nOZPY4uI.jpg"
         },
         {
             "name": "Nebelung",
             "summary": "The Nebelung may have a reserved nature, but she loves to play (being especially fond of retrieving) and enjoys jumping or climbing to high places where she can study people and situations at her leisure before making up her mind about whether she wants to get involved.",
             "temperament": "Gentle, Quiet, Shy, Playful",
-            "reference_image": {
-                "id": "KpHqQPUPW",
-                "url": "https://cdn2.thecatapi.com/images/KpHqQPUPW.jpg",
-                "width": 3024,
-                "height": 4032
-            }
+            "url": "https://cdn2.thecatapi.com/images/KpHqQPUPW.jpg"
         },
         {
             "name": "Ragdoll",
             "summary": "Ragdolls love their people, greeting them at the door, following them around the house, and leaping into a lap or snuggling in bed whenever given the chance. They are the epitome of a lap cat, enjoy being carried and collapsing into the arms of anyone who holds them.",
             "temperament": "Affectionate, Friendly, Gentle, Quiet, Easygoing",
-            "reference_image": {
-                "id": "Sy9SgPE0B",
-                "url": "https://cdn2.thecatapi.com/images/Sy9SgPE0B.jpg",
-                "width": 750,
-                "height": 937
-            }
+            "url": "https://cdn2.thecatapi.com/images/Sy9SgPE0B.jpg"
         },
         {
             "name": "Sphynx",
             "summary": "The Sphynx is an intelligent, inquisitive, extremely friendly people-oriented breed. Sphynx commonly greet their owners at the front door, with obvious excitement and happiness. She has an unexpected sense of humor that is often at odds with her dour expression.",
             "temperament": "Loyal, Inquisitive, Friendly, Quiet, Gentle",
-            "reference_image": {
-                "id": "Y_z-aBHvf",
-                "url": "https://cdn2.thecatapi.com/images/Y_z-aBHvf.jpg",
-                "width": 1280,
-                "height": 852
-            }
+            "url": "https://cdn2.thecatapi.com/images/Y_z-aBHvf.jpg"
         },
         {
             "name": "Siamese",
             "summary": "While Siamese cats are extremely fond of their people, they will follow you around and supervise your every move, being talkative and opinionated. They are a demanding and social cat, that do not like being left alone for long periods.",
             "temperament": "Active, Agile, Clever, Sociable, Loving, Energetic",
-            "reference_image": {
-                "id": "O4yjcTJOh",
-                "url": "https://cdn2.thecatapi.com/images/O4yjcTJOh.jpg",
-                "width": 1080,
-                "height": 1350
-            }
+            "url": "https://cdn2.thecatapi.com/images/O4yjcTJOh.jpg"
         }
     ]
 }
